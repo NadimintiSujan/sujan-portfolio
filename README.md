@@ -8,4 +8,4 @@ It includes:
 - Project gallery with GitHub links
 - Contact form powered by Formspree
 
-Deployed on Netlify: [your-link.netlify.app](https://your-link.netlify.app)
+Deployed on Netlify: [sujannportfolio.netlify.app](sujannportfolio.netlify.app)
