@@ -1,0 +1,186 @@
+.home-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2rem;
+  padding: 2rem 4em;
+  gap: 4rem;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+
+.profile-img {
+  width: 520px;    
+  height: auto;
+  border-radius: 0%;  
+  margin-right: 5rem;
+  margin-left: 8em;    
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  max-width: 600px;
+}
+
+.about-section h1 {
+  /* font-family: 'Playfair Display'; */
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 6.0rem;      
+  font-weight: 200;
+  /* color: #e2c293; */
+  /* color: #d3a869; */
+  color: #dbb37f;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.01em;
+}
+
+.about-section p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #b38750;
+}
+
+.download-btn {
+  font-family: 'Nunito Sans', sans-serif;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #4a320e, #ffd786);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+/* Contact Form */
+.contact-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 500px;
+}
+
+.contact-form input {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid #999;
+  background: none;
+  color: #333;
+  height: 1.8rem;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-bottom: 1px solid #d0a857;
+}
+
+/* Message textarea – with animation */
+.contact-form textarea {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border: none;
+  border-bottom: 1px solid #999;
+  background: none;
+  color: #333;
+  height: 1.8rem;
+  resize: none;
+  overflow: hidden;
+  transition: height 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-form textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #d0a857;
+  height: 6rem;
+}
+
+.contact-form button {
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 0.7rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  color: #333;
+  background: none;
+  border: 1px solid #999;
+  border-radius: 6px;
+  cursor: pointer;
+  /* transition: border-color 0.3s ease; */
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  align-self: flex-start;
+}
+
+.contact-form button:hover {
+  background: none;
+  color: transparent;
+  background: linear-gradient(to right, #4a320e, #ffd786);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: #d0a857;
+  font-weight: 720;
+}
+
+.download-outline {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #5e4520;
+  border: 1px solid #5e4520;
+  border-radius: 6px;
+  background: none;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-left: 1rem;
+}
+
+.download-outline:hover {
+  background: none;
+  color: transparent;
+  background: linear-gradient(to right, #4a320e, #ffd786);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: #d0a857;
+  font-weight: 600;
+}
+
+.home-container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
