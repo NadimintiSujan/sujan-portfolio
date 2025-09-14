@@ -31,7 +31,7 @@ const Home = () => {
 
         <div className="icon-row">
           <a
-            href="https://github.com/yourgithub"
+            href="https://github.com/NadimintiSujan"
             target="_blank"
             rel="noopener noreferrer"
             className="icon-bg"
@@ -39,7 +39,7 @@ const Home = () => {
             <FaGithub className="social-icon" />
           </a>
           <a
-            href="https://linkedin.com/in/yourlinkedin"
+            href="https://www.linkedin.com/in/sujann21/"
             target="_blank"
             rel="noopener noreferrer"
             className="icon-bg"
