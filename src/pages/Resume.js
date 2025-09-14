@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../components/Resume.css';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Resume_temp.pdf';
 
 const Resume = () => {
   useEffect(() => {
