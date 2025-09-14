@@ -1,6 +1,6 @@
 import '../components/Home.css';
 import profileImg from '../assets/me.jpg';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Resume_temp.pdf';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
