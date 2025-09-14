@@ -11,15 +11,22 @@ const Home = () => {
       <div className="about-section">
         <h1>Hi, I’m Sujan.</h1>
         <p>
-          I'm a software developer with a Master’s in Computer 
-          Science from the University of Florida. I enjoy building full-stack applications and solving real-world problems with code.
+          I’m Sujan, a software engineer with a Master’s in Computer Science from the University of Florida 
+          and 2+ years of experience building scalable full-stack applications and intelligent systems.
         </p>
         <p>
-          I have 1.5 years of experience working with React, Angular, Spring Boot, Node.js, and Flask. I’m also familiar with AWS,
-          Docker, CI/CD, and machine learning tools like PyTorch and TensorFlow.
+          I’ve worked across healthcare, finance, and research domains, delivering production-ready solutions with Angular, 
+          React, Spring Boot, Flask, Node.js, and cloud platforms like AWS and Azure. My projects range from developing healthcare 
+          portals and fraud detection systems to creating drone simulation tools and real-time sign language translation apps.
         </p>
         <p>
-          I'm always eager to learn and currently looking for new opportunities to grow. Feel free to reach out — I'd love to connect!
+          I’m skilled in containerization, CI/CD automation, and distributed systems, with hands-on experience using Docker, Jenkins, 
+          GitHub Actions, Kafka, and FHIR APIs. On the ML side, I’ve built and deployed deep learning models with PyTorch and TensorFlow, 
+          optimized multi-GPU training, and automated large-scale data workflows.
+        </p>
+        <p>
+          Always eager to learn, simplify, and deliver impact. I’m currently seeking opportunities to grow and contribute to innovative 
+          teams. Let’s connect!
         </p>
 
         <div className="icon-row">
