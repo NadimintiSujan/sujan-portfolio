@@ -88,21 +88,38 @@ const Resume = () => {
             <h3>EXPERIENCE</h3>
             <div className="item">
               <div>
-                <strong>Software Developer</strong>
+                <strong>Software Engineer</strong>
                 <p>Intersect Healthcare Systems Inc.</p>
+    <p>- Built and delivered 20+ Angular components for the doctor-facing healthcare portal, including modules for patient details,
+appointment scheduling, reminders, and secure messaging. These enhancements streamlined daily workflows and improved
+provider efficiency by 25%.
+<p>- Improved portal performance by refactoring legacy JavaScript code and applying lazy loading with modular code splitting, which
+reduced the initial page load time by 30%.</p>
+<p>- Integrated FHIR R4/R5 APIs to enable seamless and standardized patient data exchange across healthcare systems. Led the
+frontend upgrade to FHIR R5, reducing integration and compatibility issues by 35%.</p>
+<p>- Developed and maintained unit and integration test suites using Karma and Jest, achieving 80% code coverage. Combined this
+with Jenkins CI/CD pipelines to automate builds and deployments, reducing bugs by 25% and deployment time by 40%.</p>
+<p>- Implemented role-based authentication using Azure Active Directory and OAuth 2.0, ensuring doctors, administrators, and
+support staff had secure access to only the features relevant to their role.</p>
+<p>- Participated in a major database restructure project, where I redesigned query patterns, indexes, and stored procedures. This
+reduced SQL query execution time by 10% and improved data retrieval performance by 20%.</p>
+<p>- Integrated Firebase Analytics into the portal to track application crashes, latency, and performance bottlenecks. Used insights
+from the data to resolve multiple crash issues, resulting in 20% fewer runtime errors and improved platform stability.</p>
+<p>- Designed and implemented state management patterns using NgRx to handle patient records more efficiently. This reduced
+unnecessary component re-renders by 15% and improved the overall responsiveness of the healthcare portal.</p>
               </div>
-              <span>06/2025 – Present</span>
+              <span>05/2025 – Present</span>
             </div>
 
             <div className="item">
               <div>
-                <strong>Graduate Research Assistant</strong>
+                <strong>Software Developer</strong>
                 <p>University of Florida</p>
                 <p>- Built LSTM-based drone trajectory prediction model (2000+ timesteps), achieving 70% faster training with multi-GPU CUDA.</p>
                 <p>- Automated SLURM jobs for 100K+ records daily.</p>
                 <p>- Developed React + Flask web interface, Dockerized for consistent deployment</p>
               </div>
-              <span>01/2025 – 05/2025</span>
+              <span>05/2024 – 05/2025</span>
             </div>
 
             <div className="item">
