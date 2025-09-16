@@ -25,41 +25,155 @@ const Resume = () => {
           <div className="block-left">
             <h3>CONTACTS</h3>
             <p>sujan.imp123@gmail.com</p>
-            <p>+1 (352) 721-4521</p>
 
             <h3>PROGRAMMING LANGUAGES</h3>
             <div className="skill-bar"><span>Java</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>C++</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>C/C++</span><div className="bar-fill eighty"></div></div>
             <div className="skill-bar"><span>Python</span><div className="bar-fill ninty"></div></div>
-            <div className="skill-bar"><span>JavaScript</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>C#</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>JavaScript (ES6+)</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>TypeScript</span><div className="bar-fill eighty"></div></div>
             <div className="skill-bar"><span>SQL</span><div className="bar-fill seventy"></div></div>
-            <div className="skill-bar"><span>HTML</span><div className="bar-fill ninty"></div></div>
-            <div className="skill-bar"><span>CSS</span><div className="bar-fill ninty"></div></div>
-
-            <h3>TECHNOLOGIES</h3>
-            <div className="skill-bar"><span>Node.js</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>Spring Boot</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>Flask</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>Django</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>HTML5</span><div className="bar-fill ninty"></div></div>
+            <div className="skill-bar"><span>CSS3</span><div className="bar-fill ninty"></div></div>
+            
+            <h3>FRONTEND DEVELOPMENT</h3>
             <div className="skill-bar"><span>React</span><div className="bar-fill ninty"></div></div>
             <div className="skill-bar"><span>Angular</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Next.js</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>NgRx</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Redux</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Tailwind CSS</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Bootstrap</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Chart.js</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Three.js</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>jQuery / AJAX / JSON</span><div className="bar-fill sixty"></div></div>
+            
+            <h3>BACKEND & API DEVELOPMENT</h3>
+            <div className="skill-bar"><span>Spring Boot</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Spring MVC</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Spring Security</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Node.js</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Express.js</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Flask</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Django</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>REST APIs</span><div className="bar-fill ninty"></div></div>
+            <div className="skill-bar"><span>Microservices</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>GraphQL</span><div className="bar-fill sixty"></div></div>
+            
+            <h3>MACHINE LEARNING / AI</h3>
             <div className="skill-bar"><span>PyTorch</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>PyTorch Lightning</span><div className="bar-fill seventy"></div></div>
             <div className="skill-bar"><span>TensorFlow</span><div className="bar-fill sixty"></div></div>
-            <div className="skill-bar"><span>OpenCV</span><div className="bar-fill seventy"></div></div>
-            <div className="skill-bar"><span>Pandas</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Keras</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>NumPy</span><div className="bar-fill ninty"></div></div>
+            <div className="skill-bar"><span>Pandas</span><div className="bar-fill eighty"></div></div>
             <div className="skill-bar"><span>Scikit-learn</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>Apache Kafka</span><div className="bar-fill sixty"></div></div>
-            <div className="skill-bar"><span>Apache Spark</span><div className="bar-fill seventy"></div></div>
-            <div className="skill-bar"><span>MySQL</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Matplotlib</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Seaborn</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Reinforcement Learning</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>LSTMs / seq2seq</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Transformer Models</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>MediaPipe</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>OpenCV</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>NLP (rule-based)</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>SLURM</span><div className="bar-fill sixty"></div></div>
+            
+            <h3>DATA ENGINEERING & DATABASES</h3>
             <div className="skill-bar"><span>PostgreSQL</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Oracle SQL</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>MySQL</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>MS SQL Server</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>MongoDB</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Apache Kafka</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Spark ETL / Databricks</span><div className="bar-fill seventy"></div></div>
+            
+            <h3>CLOUD / DEVOPS & DEPLOYMENT</h3>
             <div className="skill-bar"><span>AWS</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>EC2</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>ECS Fargate</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Batch</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>S3</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>CloudWatch / Logs</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Amplify</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Lambda</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Azure VMs / AD / Blob</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>Docker</span><div className="bar-fill ninty"></div></div>
             <div className="skill-bar"><span>Kubernetes</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Linux/Unix</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Jenkins</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>GitHub Actions</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Maven</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Git / GitHub</span><div className="bar-fill eighty"></div></div>
             <div className="skill-bar"><span>CI/CD</span><div className="bar-fill eighty"></div></div>
+            
+            <h3>TESTING & QA</h3>
+            <div className="skill-bar"><span>JUnit</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>PyTest</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Jest</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Karma</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Cypress (E2E)</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Postman / cURL</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Unit Testing</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Integration Testing</span><div className="bar-fill seventy"></div></div>
+            
+            <h3>MONITORING & ANALYTICS</h3>
+            <div className="skill-bar"><span>Firebase Analytics</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Grafana</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Prometheus</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>Tableau</span><div className="bar-fill seventy"></div></div>
+            
+            <h3>SYSTEM DESIGN & PERFORMANCE</h3>
+            <div className="skill-bar"><span>Distributed Systems</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Concurrency / Multithreading</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Synchronization</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Fault Tolerance</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Caching Strategies</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>API Versioning</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Service Decoupling</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Profiling (JProfiler, perf, flamegraphs)</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Performance Tuning</span><div className="bar-fill sixty"></div></div>
+            
+            <h3>TOOLS & METHODOLOGIES</h3>
+            <div className="skill-bar"><span>Agile (Scrum / Kanban)</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>JIRA</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>VS Code</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>IntelliJ</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Eclipse</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Jupyter / Colab / Anaconda</span><div className="bar-fill seventy"></div></div>
+
+            // <h3>PROGRAMMING LANGUAGES</h3>
+            // <div className="skill-bar"><span>Java</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>C++</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Python</span><div className="bar-fill ninty"></div></div>
+            // <div className="skill-bar"><span>JavaScript</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>C#</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>SQL</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>HTML</span><div className="bar-fill ninty"></div></div>
+            // <div className="skill-bar"><span>CSS</span><div className="bar-fill ninty"></div></div>
+
+            // <h3>TECHNOLOGIES</h3>
+            // <div className="skill-bar"><span>Node.js</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Spring Boot</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Flask</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Django</span><div className="bar-fill sixty"></div></div>
+            // <div className="skill-bar"><span>React</span><div className="bar-fill ninty"></div></div>
+            // <div className="skill-bar"><span>Angular</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>PyTorch</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>TensorFlow</span><div className="bar-fill sixty"></div></div>
+            // <div className="skill-bar"><span>OpenCV</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>Pandas</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>NumPy</span><div className="bar-fill ninty"></div></div>
+            // <div className="skill-bar"><span>Scikit-learn</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Apache Kafka</span><div className="bar-fill sixty"></div></div>
+            // <div className="skill-bar"><span>Apache Spark</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>MySQL</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>PostgreSQL</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>MongoDB</span><div className="bar-fill sixty"></div></div>
+            // <div className="skill-bar"><span>AWS</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Docker</span><div className="bar-fill ninty"></div></div>
+            // <div className="skill-bar"><span>Kubernetes</span><div className="bar-fill seventy"></div></div>
+            // <div className="skill-bar"><span>CI/CD</span><div className="bar-fill eighty"></div></div>
+            // <div className="skill-bar"><span>Tableau</span><div className="bar-fill seventy"></div></div>
           </div>
         </div>
 
