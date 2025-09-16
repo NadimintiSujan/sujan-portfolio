@@ -108,19 +108,21 @@ const Resume = () => {
             
             <h3>TESTING & QA</h3>
             <div className="skill-bar"><span>JUnit</span><div className="bar-fill eighty"></div></div>
-            <div className="skill-bar"><span>PyTest</span><div className="bar-fill seventy"></div></div>
-            <div className="skill-bar"><span>Jest</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>PyTest</span><div className="bar-fill ninty"></div></div>
+            <div className="skill-bar"><span>Jest</span><div className="bar-fill ninty"></div></div>
             <div className="skill-bar"><span>Karma</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Mockito</span><div className="bar-fill seventy"></div></div>
             <div className="skill-bar"><span>Cypress (E2E)</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>Postman / cURL</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>Unit Testing</span><div className="bar-fill eighty"></div></div>
             <div className="skill-bar"><span>Integration Testing</span><div className="bar-fill seventy"></div></div>
             
             <h3>MONITORING & ANALYTICS</h3>
-            <div className="skill-bar"><span>Firebase Analytics</span><div className="bar-fill seventy"></div></div>
-            <div className="skill-bar"><span>Grafana</span><div className="bar-fill sixty"></div></div>
-            <div className="skill-bar"><span>Prometheus</span><div className="bar-fill sixty"></div></div>
+            <div className="skill-bar"><span>Firebase Analytics</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Grafana</span><div className="bar-fill eighty"></div></div>
+            <div className="skill-bar"><span>Prometheus</span><div className="bar-fill seventy"></div></div>
             <div className="skill-bar"><span>Tableau</span><div className="bar-fill seventy"></div></div>
+            <div className="skill-bar"><span>Power BI</span><div className="bar-fill sixty"></div></div>
             
             <h3>SYSTEM DESIGN & PERFORMANCE</h3>
             <div className="skill-bar"><span>Distributed Systems</span><div className="bar-fill seventy"></div></div>
