@@ -140,40 +140,6 @@ const Resume = () => {
             <div className="skill-bar"><span>IntelliJ</span><div className="bar-fill seventy"></div></div>
             <div className="skill-bar"><span>Eclipse</span><div className="bar-fill sixty"></div></div>
             <div className="skill-bar"><span>Jupyter / Colab / Anaconda</span><div className="bar-fill seventy"></div></div>
-
-            // <h3>PROGRAMMING LANGUAGES</h3>
-            // <div className="skill-bar"><span>Java</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>C++</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Python</span><div className="bar-fill ninty"></div></div>
-            // <div className="skill-bar"><span>JavaScript</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>C#</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>SQL</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>HTML</span><div className="bar-fill ninty"></div></div>
-            // <div className="skill-bar"><span>CSS</span><div className="bar-fill ninty"></div></div>
-
-            // <h3>TECHNOLOGIES</h3>
-            // <div className="skill-bar"><span>Node.js</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Spring Boot</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Flask</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Django</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>React</span><div className="bar-fill ninty"></div></div>
-            // <div className="skill-bar"><span>Angular</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>PyTorch</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>TensorFlow</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>OpenCV</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>Pandas</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>NumPy</span><div className="bar-fill ninty"></div></div>
-            // <div className="skill-bar"><span>Scikit-learn</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Apache Kafka</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>Apache Spark</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>MySQL</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>PostgreSQL</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>MongoDB</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>AWS</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Docker</span><div className="bar-fill ninty"></div></div>
-            // <div className="skill-bar"><span>Kubernetes</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>CI/CD</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Tableau</span><div className="bar-fill seventy"></div></div>
           </div>
         </div>
 
