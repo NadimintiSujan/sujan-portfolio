@@ -49,7 +49,7 @@ const Work = () => {
       img: img7,
       title: 'Internet Chatting',
       description: 'Java, Socket Programming, Multithreading',
-      link: 'https://github.com/NadimintiSujan/Chord',
+      link: 'https://github.com/NadimintiSujan/internet-chatting',
     },
   ];
 
