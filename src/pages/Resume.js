@@ -90,23 +90,23 @@ const Resume = () => {
               <div>
                 <strong>Software Engineer</strong>
                 <p>Intersect Healthcare Systems Inc.</p>
-    <p>- Built and delivered 20+ Angular components for the doctor-facing healthcare portal, including modules for patient details,
-appointment scheduling, reminders, and secure messaging. These enhancements streamlined daily workflows and improved
-provider efficiency by 25%.
-<p>- Improved portal performance by refactoring legacy JavaScript code and applying lazy loading with modular code splitting, which
-reduced the initial page load time by 30%.</p>
-<p>- Integrated FHIR R4/R5 APIs to enable seamless and standardized patient data exchange across healthcare systems. Led the
-frontend upgrade to FHIR R5, reducing integration and compatibility issues by 35%.</p>
-<p>- Developed and maintained unit and integration test suites using Karma and Jest, achieving 80% code coverage. Combined this
-with Jenkins CI/CD pipelines to automate builds and deployments, reducing bugs by 25% and deployment time by 40%.</p>
-<p>- Implemented role-based authentication using Azure Active Directory and OAuth 2.0, ensuring doctors, administrators, and
-support staff had secure access to only the features relevant to their role.</p>
-<p>- Participated in a major database restructure project, where I redesigned query patterns, indexes, and stored procedures. This
-reduced SQL query execution time by 10% and improved data retrieval performance by 20%.</p>
-<p>- Integrated Firebase Analytics into the portal to track application crashes, latency, and performance bottlenecks. Used insights
-from the data to resolve multiple crash issues, resulting in 20% fewer runtime errors and improved platform stability.</p>
-<p>- Designed and implemented state management patterns using NgRx to handle patient records more efficiently. This reduced
-unnecessary component re-renders by 15% and improved the overall responsiveness of the healthcare portal.</p>
+                <p>- Built and delivered 20+ Angular components for the doctor-facing healthcare portal, including modules for patient details,
+                appointment scheduling, reminders, and secure messaging. These enhancements streamlined daily workflows and improved
+                provider efficiency by 25%.</p>
+                <p>- Improved portal performance by refactoring legacy JavaScript code and applying lazy loading with modular code splitting, which
+                reduced the initial page load time by 30%.</p>
+                <p>- Integrated FHIR R4/R5 APIs to enable seamless and standardized patient data exchange across healthcare systems. Led the
+                frontend upgrade to FHIR R5, reducing integration and compatibility issues by 35%.</p>
+                <p>- Developed and maintained unit and integration test suites using Karma and Jest, achieving 80% code coverage. Combined this
+                with Jenkins CI/CD pipelines to automate builds and deployments, reducing bugs by 25% and deployment time by 40%.</p>
+                <p>- Implemented role-based authentication using Azure Active Directory and OAuth 2.0, ensuring doctors, administrators, and
+                support staff had secure access to only the features relevant to their role.</p>
+                <p>- Participated in a major database restructure project, where I redesigned query patterns, indexes, and stored procedures. This
+                reduced SQL query execution time by 10% and improved data retrieval performance by 20%.</p>
+                <p>- Integrated Firebase Analytics into the portal to track application crashes, latency, and performance bottlenecks. Used insights
+                from the data to resolve multiple crash issues, resulting in 20% fewer runtime errors and improved platform stability.</p>
+                <p>- Designed and implemented state management patterns using NgRx to handle patient records more efficiently. This reduced
+                unnecessary component re-renders by 15% and improved the overall responsiveness of the healthcare portal.</p>
               </div>
               <span>05/2025 – Present</span>
             </div>
