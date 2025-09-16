@@ -6,7 +6,7 @@ import img3 from '../assets/work3.jpg';
 import img4 from '../assets/work4.jpg';
 import img5 from '../assets/work5.jpg';
 import img6 from '../assets/work6.jpg';
-
+import img7 from '../assets/work7.jpg';
 const Work = () => {
   const works = [
     {
@@ -37,13 +37,19 @@ const Work = () => {
       img: img5,
       title: 'Personal Budget Tracker',
       description: 'PostgreSQL, Next.js, Tailwind CSS, Prisma ORM',
-      link: 'https://github.com/yourusername/budget-tracker',
+      link: 'https://github.com/NadimintiSujan/Personal-budget-tracker',
     },
     {
       img: img6,
       title: 'Live Sign Language Interpretation',
       description: 'TensorFlow, OpenCV, MediaPipe, WebRTC, NLP',
       link: 'https://github.com/NadimintiSujan/Sign-Language-Translation',
+    },
+    {
+      img: img7,
+      title: 'Internet Chatting',
+      description: 'Java, Socket Programming, Multithreading',
+      link: 'https://github.com/NadimintiSujan/Chord',
     },
   ];
 
