@@ -12,7 +12,7 @@ const Work = () => {
     {
       img: img1,
       title: 'Gator Library',
-      description: 'Red-Black Trees, Binary Min-Heaps',
+      description: 'Python, Red-Black Trees, Binary Min-Heaps',
       link: 'https://github.com/NadimintiSujan/Gator-Library',
     },
     {
@@ -30,7 +30,7 @@ const Work = () => {
     {
       img: img4,
       title: 'Concrete Crack Detection',
-      description: 'Short description of project 4',
+      description: 'Python, scikit-learn (KNN), OpenCV',
       link: 'https://github.com/NadimintiSujan/Concrete-Crack-Detection',
     },
     {
