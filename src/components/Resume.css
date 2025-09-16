@@ -15,7 +15,7 @@
 }
 
 .resume-right {
-  width: 70%;                 /* ✅ CHANGED (was 60%) – take more of the right space */
+  width: 70%;                 /* was 60% – use more space */
   padding-left: 3rem;
   padding-right: 2rem;
 }
@@ -28,7 +28,7 @@
 }
 
 .resume-right .item div {
-  max-width: 100%;            /* ✅ CHANGED (was 75%) – allow text to fill available space */
+  max-width: 100%;            /* was 75% – allow text to fill available space */
 }
 
 .resume-right .item strong {
@@ -39,8 +39,16 @@
   margin: 0.3rem 0;
   font-size: 1rem;
   color: #666;
-  text-align: justify;        /* ✅ NEW */
-  text-justify: inter-word;   /* ✅ NEW */
+  text-align: justify;        /* justify text */
+  text-justify: inter-word;
+}
+
+/* ✅ NEW: Keep date ranges on one line */
+.resume-right .item span {
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 0.95rem;
+  color: #888;
 }
 
 .block-left {
