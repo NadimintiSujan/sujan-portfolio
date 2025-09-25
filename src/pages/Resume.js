@@ -172,13 +172,14 @@ const Resume = () => {
               <div>
                 <strong>Software Engineer</strong>
                 <p>Intersect Healthcare Systems Inc.</p>
-                <p>- Built and delivered 20+ Angular components for the doctor-facing healthcare portal, including modules for patient details,
-                appointment scheduling, reminders, and secure messaging. These enhancements streamlined daily workflows and improved
-                provider efficiency by 25%.</p>
+                <p>- Developed 20+ reusable Angular components with TypeScript and SCSS for a doctor-facing healthcare portal, delivering key features
+                such as patient details, appointment scheduling, reminders, and secure messaging, which improved provider efficiency by 25% and 
+                streamlined day-to-day clinical workflows.</p>
                 <p>- Improved portal performance by refactoring legacy JavaScript code and applying lazy loading with modular code splitting, which
                 reduced the initial page load time by 30%.</p>
-                <p>- Integrated FHIR R4/R5 APIs to enable seamless and standardized patient data exchange across healthcare systems. Led the
-                frontend upgrade to FHIR R5, reducing integration and compatibility issues by 35%.</p>
+                <p>- Integrated FHIR R4/R5 APIs with Angular services and RxJS observables to handle asynchronous HTTP requests,
+                enabling secure, real-time patient data exchange. This reduced integration issues by 35% and cut average response times
+                by 20%, ensuring compliance with interoperability standards.</p>
                 <p>- Developed and maintained unit and integration test suites using Karma and Jest, achieving 80% code coverage. Combined this
                 with Jenkins CI/CD pipelines to automate builds and deployments, reducing bugs by 25% and deployment time by 40%.</p>
                 <p>- Implemented role-based authentication using Azure Active Directory and OAuth 2.0, ensuring doctors, administrators, and
@@ -196,8 +197,11 @@ const Resume = () => {
             <div className="item">
               <div>
                 <strong>Software Developer</strong>
-                <p>University of Florida</p>
+                <p>TEA Lab, University of Florida</p>
                 <p>- Developed a 3D flight visualization tool using React, Flask, and Three.js, allowing researchers to upload datasets and interactively view drone trajectories in 3D. This replaced manual graph plotting workflows and reduced analysis time by 60%.</p>
+                <p>- Built RESTful microservices with Java, Spring Boot, and PostgreSQL to ingest, validate, and store UAV flight datasets, while
+                implementing JWT and OAuth 2.0 authentication for secure researcher/admin role management. This improved API
+                reliability by 35% and enhanced data governance.</p>
                 <p>- Utilized AWS Batch to automate the scheduling of drone model training jobs. Instead of starting jobs manually, Batch handled job queuing, scaling across nodes, and resource allocation, which allowed experiments to run continuously without developer intervention, reducing manual effort by 60%.</p>
                 <p>- Accelerated model training by 70% by training on AWS EC2 instances, equipped with NVIDIA A100 GPUs. Used multi-GPU parallelism with CUDA and PyTorch Lightning’s distributed training features to split large drone trajectory datasets across GPUs, which significantly reduced training time while maintaining accuracy.</p>                
                 <p>- Improved monitoring and debugging efficiency by 35% by integrating CloudWatch Logs into the pipeline to track GPU usage, system performance metrics, and training errors in real time. Configured custom log streams and alarms to alert the team of anomalies, reducing downtime by 25% and enabling faster resolution of failed training runs.</p> 
@@ -205,18 +209,21 @@ const Resume = () => {
                 <p>- Implemented CI/CD pipelines using GitHub Actions for automated testing and Docker for containerization. This reduced deployment errors by 30% and ensured consistent environments between development and production.</p>                
                 <p>- Configured custom Conda environments with pinned versions of CUDA, PyTorch, Scikit-learn, NumPy, and other supporting libraries, preventing compatibility issues across machines. This reduced setup time for team members by 15% and ensured reproducibility of experiments across local and cloud environments.</p>
                 <p>- Designed and deployed custom visualization dashboards using Matplotlib and Seaborn that provided interactive plots for monitoring training loss curves, GPU utilization, and model performance metrics. These dashboards helped quickly detect anomalies during experiments.</p>
-                <p>- Trained reinforcement learning (RL) controllers on transformer-based adversarial models, designing custom reward functions to improve robustness of drone vision models against occlusions and environmental noise. This work improved stability in real-world drone flight simulations by 30%.</p>
+                <p>- Trained reinforcement learning (RL) controllers on LSTM-based adversarial models, designing custom reward functions to improve robustness of drone vision models against occlusions and environmental noise. This work improved stability in real-world drone flight simulations by 30%.</p>
                 <p>- Mentored and onboarded 4 graduate engineers by creating detailed technical documentation, coding standards, and workflow guides. Conducted weekly knowledge-sharing sessions, which improved onboarding efficiency and boosted overall team productivity by 30%.</p>
                 <p>- Followed Agile Scrum methodologies during the entire software development life cycle (SDLC) by participating in sprint planning, daily standups, sprint reviews, and retrospective sessions. This ensured continuous integration of feedback from advisors and researchers, helping deliver features in shorter cycles and improving research collaboration by 15%.</p>
               </div>
-              <span>05/2024 – 05/2025</span>
+              <span>01/2024 – 05/2025</span>
             </div>
 
             <div className="item">
               <div>
                 <strong>Software Engineer</strong>
-                <p>Vellore Institute of Technology</p>
-                <p>- Built a real-time video application using Flask that translated sign language gestures into text. The system allowed non-signers to understand conversations more effectively, improving comprehension during live testing scenarios by 50%.</p>
+                <p>Sense, Vellore Institute of Technology</p>
+                <p>- Developed and deployed a real-time sign language translation system using Flask microservices on AWS, integrating robust
+                test coverage (85% with PyTest). The system improved responsiveness by 40% and reduced inference failures by 35%,
+                making it more reliable for accessibility use cases. The system allowed non-signers to understand conversations more
+                effectively, improving comprehension during live testing scenarios by 50%.</p> 
                 <p>- Designed and implemented a Python-based data pipeline to handle 25K+ gesture sequences, with features such as checkpoints, early stopping, and custom monitoring scripts. This improved pipeline reliability by 35% and reduced retraining overhead by 40%, saving significant computation time.</p>
                 <p>- Developed REST APIs and microservices for ingesting video frames and performing gesture recognition using MediaPipe for keypoint extraction and OpenCV for real-time video processing. These services reduced end-to-end system latency by 40%, making translation faster and smoother.</p>
                 <p>- Trained an LSTM-based deep learning model (TensorFlow, Keras) on 25K+ gesture sequences, enabling accurate temporal sequence prediction. The model achieved 98.8% accuracy in translating continuous sign gestures into text, significantly improving real-time translation quality.</p>
