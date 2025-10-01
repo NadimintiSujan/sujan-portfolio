@@ -53,7 +53,7 @@ const Home = () => {
 
         {/* <form
         className="contact-form"
-        action="https://formspree.io/f/xvgqpapd"  // ⬅️ Use your actual endpoint
+        action="https://formspree.io/f/xvgqpapd"  //endpoint
         method="POST"
         >
 
@@ -63,7 +63,7 @@ const Home = () => {
         </form> */}
         <form
           className="contact-form"
-          action="https://formspree.io/f/xvgqpapd"  // ⬅️ Replace with your real Formspree URL
+          action="https://formspree.io/f/xvgqpapd"  //️ Formspree URL
           method="POST"
         >
           <input
