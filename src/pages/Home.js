@@ -19,23 +19,21 @@ const Home = () => {
         </p>
       
         <h2>What I Do</h2>
-        <ul>
-          <li>
+        <p>
             <strong>Full-Stack Engineering:</strong> Develop responsive, production-grade apps with 
             React, Angular, Spring Boot, Node.js, and Flask, integrating REST APIs 
             and microservices that power real-world platforms.
-          </li>
-          <li>
+        </p>
+        <p>
             <strong>Cloud & DevOps:</strong> Automate deployments using AWS, Azure, 
             Docker, Kubernetes, and CI/CD pipelines (Jenkins, GitHub Actions) — improving speed, 
             reliability, and scalability.
-          </li>
-          <li>
+        </p>
+        <p>
             <strong>AI & Data Systems:</strong> Build optimized ML pipelines with 
             PyTorch, TensorFlow, and CUDA, enabling faster training and 
             intelligent automation.
-          </li>
-        </ul>
+        </p>
       
         <h2>Highlights</h2>
         <p>
