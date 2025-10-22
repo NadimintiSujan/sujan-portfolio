@@ -81,24 +81,6 @@ const Resume = () => {
             <div className="skill-bar"><span>Mockito</span><div className="bar-fill seventy"></div></div>
             <div className="skill-bar"><span>Postman / cURL</span><div className="bar-fill sixty"></div></div>
             
-            // <h3>MONITORING & ANALYTICS</h3>
-            // <div className="skill-bar"><span>Firebase Analytics</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Grafana</span><div className="bar-fill eighty"></div></div>
-            // <div className="skill-bar"><span>Prometheus</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>Tableau</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>Power BI</span><div className="bar-fill sixty"></div></div>
-            
-            // <h3>SYSTEM DESIGN & PERFORMANCE</h3>
-            // <div className="skill-bar"><span>Distributed Systems</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>Concurrency / Multithreading</span><div className="bar-fill seventy"></div></div>
-            // <div className="skill-bar"><span>Synchronization</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>Fault Tolerance</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>Caching Strategies</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>API Versioning</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>Service Decoupling</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>Profiling (JProfiler, perf, flamegraphs)</span><div className="bar-fill sixty"></div></div>
-            // <div className="skill-bar"><span>Performance Tuning</span><div className="bar-fill sixty"></div></div>
-            
             <h3>TOOLS & METHODOLOGIES</h3>
             <div className="skill-bar"><span>Agile (Scrum / Kanban)</span><div className="bar-fill seventy"></div></div>
             <div className="skill-bar"><span>JIRA</span><div className="bar-fill seventy"></div></div>
