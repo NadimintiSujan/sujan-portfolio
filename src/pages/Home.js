@@ -18,7 +18,7 @@ const Home = () => {
           AI-driven systems that deliver measurable impact.
         </p>
       
-        <h2>🚀 What I Do</h2>
+        <h2>What I Do</h2>
         <ul>
           <li>
             <strong>Full-Stack Engineering:</strong> Develop responsive, production-grade apps with 
@@ -37,27 +37,25 @@ const Home = () => {
           </li>
         </ul>
       
-        <h2>⚡ Highlights</h2>
-        <ul>
-          <li>
-            Improved healthcare platform efficiency by 35% through Angular component 
+        <h2>Highlights</h2>
+        <p>
+            - Improved healthcare platform efficiency by 35% through Angular component 
             reusability and Jenkins CI/CD automation.
-          </li>
-          <li>
-            Accelerated ML workflows by 70% using PyTorch Lightning + AWS Batch, and 
+        </p>
+        <p>
+            - Accelerated ML workflows by 70% using PyTorch Lightning + AWS Batch, and 
             reduced manual preprocessing by 60% with automated 3D visualization tools.
-          </li>
-          <li>
-            Enhanced user experience by 50% in real-time video translation apps through 
+        </p>
+        <p>
+            - Enhanced user experience by 50% in real-time video translation apps through 
             optimized Flask microservices and TensorFlow inference pipelines.
-          </li>
-          <li>
-            Delivered critical alerts 60% faster via Kafka-driven Spring Boot 
+        </p>
+        <p>
+            - Delivered critical alerts 60% faster via Kafka-driven Spring Boot 
             microservices deployed on AWS Fargate.
-          </li>
-        </ul>
+        </p>
       
-        <h2>💡 What Drives Me</h2>
+        <h2>What Drives Me</h2>
         <p>
           I love turning complex ideas into reliable, impactful software. 
           Whether it’s scaling backend systems, optimizing ML pipelines, or designing seamless UI flows — 
