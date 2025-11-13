@@ -21,7 +21,7 @@ const Home = () => {
         <h2>What I Do</h2>
         <p>
             <strong>Full-Stack Engineering:</strong> Develop responsive, production-grade apps with 
-            React, Angular, Spring Boot, Node.js, and Flask, integrating REST APIs 
+            Spring Boot, React.js, Node.js, and Flask, integrating RESTful APIs 
             and microservices that power real-world platforms.
         </p>
         <p>
@@ -31,26 +31,8 @@ const Home = () => {
         </p>
         <p>
             <strong>AI & Data Systems:</strong> Build optimized ML pipelines with 
-            PyTorch, TensorFlow, and CUDA, enabling faster training and 
+            NumPy, Pandas, Scikit-learn, PyTorch, and TensorFlow, enabling faster training and 
             intelligent automation.
-        </p>
-      
-        <h2>Highlights</h2>
-        <p>
-            - Improved healthcare platform efficiency by 35% through Angular component 
-            reusability and Jenkins CI/CD automation.
-        </p>
-        <p>
-            - Accelerated ML workflows by 70% using PyTorch Lightning + AWS Batch, and 
-            reduced manual preprocessing by 60% with automated 3D visualization tools.
-        </p>
-        <p>
-            - Enhanced user experience by 50% in real-time video translation apps through 
-            optimized Flask microservices and TensorFlow inference pipelines.
-        </p>
-        <p>
-            - Delivered critical alerts 60% faster via Kafka-driven Spring Boot 
-            microservices deployed on AWS Fargate.
         </p>
       
         <h2>What Drives Me</h2>
